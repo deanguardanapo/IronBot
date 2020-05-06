@@ -18,15 +18,14 @@ $ git clone https://github.com/deanguardanapo/IronBot.git
 ```
 
 ### Features
-* **addReaction()** - IronBot will send a random reaction, only the user has access to delete their own reaction, other members can react to the reaction. 
-![](IronBot/Images/Reactions.jpg)
-Format: ![Alt Text](url)
 * **callBot()** - Activates IronBot, allows you to view the bots functions.
-* **clearCommand()** - IronBot will delete commands previously made, only deletes messages within two weeks. 
-![](IronBot/Images/DeleteMessages.jpg)
 * **commandBot()** - Sets a playing message (what the IronBot is doing), changes online status (online, offline, idle.
+* **addReaction()** - IronBot will send a random reaction, only the user has access to delete their own reaction, other members can react to the reaction. 
+![](Images/Reactions.jpg)
+* **clearCommand()** - IronBot will delete commands previously made, only deletes messages within two weeks. 
+![](Images/DeleteMessages.jpg)
 * **GuildMemberLeave()/GuildMemberJoin()** - IronBot will notify the members who are in the server once somebody has either left or joined the server with a unique string output each time.
-![](IronBot/Images/MemberLeave:Join.jpg) 
+![](Images/MemberLeave:Join.jpg) 
 
 ## Authors
 * **Dean Guardanapo** - [Github](https://github.com/Deanguardanapo)
