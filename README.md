@@ -2,7 +2,7 @@
 IronBot is an internet chat bot that interacts with the Discord chat room. The IronBot is able to execture commands and perform routine tasks (e.g. Online searches).
 
 ## Getting Started
-Discord bots are automated robots that join your server and are able to be customized. The Discord bot has code that it exectures in the background whne it encounters triggered specific events. When a specific event happens in your Discord server, the bot will notice it and respond by executing its commands. 
+Discord bots are automated robots that join your server and are able to be customized. The Discord bot has code that it executes in the background whne it encounters triggered specific events. When a specific event happens in your Discord server, the bot will notice it and respond by executing its commands. 
 The following instructions will allow you to run our project on your local machine for development and testing purposes. 
 
 ### Requirements
