@@ -23,7 +23,7 @@ $ git clone https://github.com/deanguardanapo/IronBot.git
 * **callBot()** - Activates IronBot, allows you to view the bots functions.
 * **clearCommand()** - IronBot will delete commands previously made, only deletes messages within two weeks. 
 ![](/Images/DeleteMessages.jpg)
-* **commandBot()** - Sets a playing message (what the IronBot is doing), changes online status (online, offline, idle.
+* **commandBot()** - Sets a playing message (what the IronBot is doing), changes online status (online, offline, idle).
 * **GuildMemberLeave()/GuildMemberJoin()** - IronBot will notify the members who are in the server once somebody has either left or joined the server with a unique string output each time.
 ![](/Images/MemberLeave:Join.jpg) 
 
