@@ -21,7 +21,7 @@ public class IronBot {
 	// Main method
 	public static void main(String[] args) throws LoginException {
 
-		jda = new JDABuilder(AccountType.BOT).setToken("NzAxOTMxODA5MDYzMzA1MzI3.Xp5Ryg.i3PTHeNBpa7nbX9zpCQmKiSzcPY")
+		jda = new JDABuilder(AccountType.BOT).setToken("NzAxOTMxODA5MDYzMzA1MzI3.Xrstkg.vCPCZP1hqjtY5mazoLvqkUbFN5w")
 				.build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.getPresence().setActivity(Activity.watching("Group8 create their project..."));
