@@ -14,7 +14,7 @@ The following instructions will allow you to run our project on your local machi
 ### Installing
 1. Clone the repository
 ```
-$ git clone https://github.com/deanguardanapo/IronBot.git
+$ git clone git@github.com:deanguardanapo/IronBot.git
 ```
 
 ### Features
