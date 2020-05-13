@@ -12,10 +12,10 @@ public class Commands extends ListenerAdapter {
 	public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
 		String[] args = event.getMessage().getContentRaw().split("\\s+");
 
-		if (args[0].equalsIgnoreCase(IronBot.prefix + "test")) {
+		if (args[0].equalsIgnoreCase(IronBot.prefix + "IronBot")) {
 			EmbedBuilder info = new EmbedBuilder();
 			info.setTitle("🐱‍🏍IronBot");
-			info.setDescription("Not sure what to put here yet");
+			info.setDescription("Welcome! I am here to not only be your friend, but I will be here everytime you call me!");
 			info.setColor(0xf45642);
 			info.setFooter("Created by the best", event.getMember().getUser().getAvatarUrl());
 

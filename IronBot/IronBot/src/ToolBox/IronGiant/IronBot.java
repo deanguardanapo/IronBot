@@ -21,10 +21,11 @@ public class IronBot {
 	// Main method
 	public static void main(String[] args) throws LoginException {
 
-		jda = new JDABuilder(AccountType.BOT).setToken("NzAxOTMxODA5MDYzMzA1MzI3.Xrstkg.vCPCZP1hqjtY5mazoLvqkUbFN5w")
+		jda = new JDABuilder(AccountType.BOT).setToken("NzAxOTMxODA5MDYzMzA1MzI3.Xrsy-A.y7y0A2dh4uzyEV0lzxP0J4m5Nkw")
 				.build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
-		jda.getPresence().setActivity(Activity.watching("Group8 create their project..."));
+		jda.getPresence().setActivity(Activity.watching(
+				"Myself being created. Hi! I'm IronBot, I am a discord bot created by my masters for their CMPE133 Final Project"));
 
 		jda.addEventListener(new Commands());
 		jda.addEventListener(new GuildMemberJoin());
@@ -32,6 +33,6 @@ public class IronBot {
 		jda.addEventListener(new GuildMessageReceived());
 		jda.addEventListener(new Clear());
 		jda.addEventListener(new GuildMessageReactionAdd());
-		
+
 	}
 }
